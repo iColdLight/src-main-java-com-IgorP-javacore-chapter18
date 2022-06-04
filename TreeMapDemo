@@ -20,7 +20,6 @@ class TreeMapDemo {
 
         double balance = tm.get("Джон Доу");
         tm.put("Джон Доу", balance + 1000);
-        System.out.println("Новый остаток на счете Джона Доу: "  +
-                tm.get("Джон Доу"));
+        System.out.println("Новый остаток на счете Джона Доу: "  + tm.get("Джон Доу"));
     }
 }
