@@ -20,7 +20,6 @@ class HashMapDemo {
 
         double balance = hm.get("Джон Доу");
         hm.put("Джон Доу", balance + 1000);
-        System.out.println("Новый остаток на счете Джона Доу: " +
-                hm.get("Джон Доу"));
+        System.out.println("Новый остаток на счете Джона Доу: " + hm.get("Джон Доу"));
     }
 }
